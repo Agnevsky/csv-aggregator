@@ -1,8 +1,8 @@
-from work_with_file import read_file
+from parsargs import parse_args
 
 
 def main():
-    read_file()
+    parse_args()
 
 
 if __name__ == "__main__":

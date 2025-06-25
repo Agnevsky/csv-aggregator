@@ -1,10 +1,9 @@
 import argparse
-from work_with_file import read_file, read_with_where
 
 
 def parse_args():
     file_name = ""
-    where_arg = None
+    where_arg = []
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--file', type=str, help="Input name file")
@@ -13,24 +12,15 @@ def parse_args():
     args = parser.parse_args()
     file_name = args.file
 
-    if args.where is not None:
-        where_arg = []
+    if args.where is None:
+        pass
+    else:
         for i in args.where:
             if i in ['>', '<', '=']:
                 where_arg.append(args.where.split(i)[0]) 
                 where_arg.append(i) 
                 where_arg.append(args.where.split(i)[1])
 
-    get_args(file_name, where_arg)
-    
+    print(file_name, where_arg)
 
-def get_args(*args):
-    arg = [i for i in args]
-    file_name = arg[0]
-    arg_list = arg[1]
-
-    if arg_list is None:
-        read_file(file_name)
-    else:
-        read_with_where(file_name, arg_list)
-
+parse_args()

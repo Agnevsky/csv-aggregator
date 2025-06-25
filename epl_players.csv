@@ -1,51 +1,51 @@
 firstname,lastname,club,goals,position,price,ratio goals
-Alisson,Becker,Liverpool,0,Вратарь,45000000,0.93
-David,Raya,Arsenal,0,Вратарь,35000000,0.85
-Jordan,Pickford,Everton,0,Вратарь,25000000,1.17
-Ederson,Moraes,Manchester City,0,Вратарь,50000000,0.88
-Andre,Onana,Manchester United,0,Вратарь,35000000,1.12
-Erling,Haaland,Manchester City,27,Нападающий,120000000,0.0
-Ollie,Watkins,Aston Villa,19,Нападающий,55000000,0.0
-Heung-Min,Son,Tottenham,17,Нападающий,50000000,0.0
-Dominic,Solanke,Bournemouth,18,Нападающий,40000000,0.0
-Callum,Wilson,Newcastle,13,Нападающий,30000000,0.0
-Bukayo,Saka,Arsenal,16,Полузащитник,110000000,0.0
-Bruno,Fernandes,Manchester United,10,Полузащитник,75000000,0.0
-Phil,Foden,Manchester City,15,Полузащитник,110000000,0.0
-James,Maddison,Tottenham,9,Полузащитник,60000000,0.0
-Pascal,Groß,Brighton,6,Полузащитник,18000000,0.0
-Virgil,van Dijk,Liverpool,3,Защитник,45000000,0.0
-William,Saliba,Arsenal,2,Защитник,60000000,0.0
-Reece,James,Chelsea,1,Защитник,35000000,0.0
-Kieran,Trippier,Newcastle,4,Защитник,30000000,0.0
-Lewis,Dunk,Brighton,2,Защитник,15000000,0.0
-Joe,Jones,Manchester City,8,Защитник,119000000,0.0
-Harry,Roberts,Brighton,0,Вратарь,16000000,0.81
-Ben,Walker,Newcastle,12,Нападающий,85000000,0.0
-John,Williams,Tottenham,16,Защитник,110000000,0.0
-Michael,Davies,Newcastle,4,Защитник,25000000,0.0
-Tom,Davies,Arsenal,0,Вратарь,68000000,1.08
-Joe,Roberts,West Ham,0,Вратарь,20000000,1.01
-John,Davies,Newcastle,15,Полузащитник,83000000,0.0
-Jamie,Taylor,Chelsea,2,Полузащитник,83000000,0.0
-Jack,Davies,Arsenal,8,Полузащитник,92000000,0.0
-Liam,Smith,Aston Villa,0,Вратарь,37000000,1.08
-Harry,Hall,Brighton,9,Нападающий,63000000,0.0
-Alex,Walker,West Ham,7,Защитник,61000000,0.0
-Alex,Evans,Aston Villa,0,Вратарь,85000000,0.91
-Harry,Hall,Chelsea,0,Полузащитник,85000000,0.0
-Ben,Hill,Manchester City,5,Полузащитник,98000000,0.0
-Joe,Hill,Liverpool,0,Полузащитник,120000000,0.0
-Ben,Hill,Liverpool,15,Защитник,41000000,0.0
-Ryan,Hill,Manchester City,6,Полузащитник,17000000,0.0
-Ryan,Walker,West Ham,2,Полузащитник,97000000,0.0
-Sam,Walker,West Ham,14,Защитник,46000000,0.0
-Tom,Taylor,Arsenal,0,Вратарь,105000000,1.29
-Sam,Thomas,Aston Villa,7,Защитник,19000000,0.0
-Joe,Hill,Arsenal,12,Нападающий,103000000,0.0
-Chris,Walker,Newcastle,0,Вратарь,107000000,1.2
-Tom,Williams,Manchester United,0,Вратарь,53000000,1.22
-Tom,Thomas,Liverpool,11,Нападающий,74000000,0.0
-Harry,Walker,Manchester United,0,Вратарь,17000000,0.84
-Joe,Brown,Chelsea,17,Нападающий,20000000,0.0
-John,Williams,Aston Villa,0,Вратарь,109000000,0.87
+Alisson,Becker,Liverpool,0,Goalkeeper,45000000,0.93
+David,Raya,Arsenal,0,Goalkeeper,35000000,0.85
+Jordan,Pickford,Everton,0,Goalkeeper,25000000,1.17
+Ederson,Moraes,Manchester City,0,Goalkeeper,50000000,0.88
+Andre,Onana,Manchester United,0,Goalkeeper,35000000,1.12
+Erling,Haaland,Manchester City,27,Forward,120000000,0.0
+Ollie,Watkins,Aston Villa,19,Forward,55000000,0.0
+Heung-Min,Son,Tottenham,17,Forward,50000000,0.0
+Dominic,Solanke,Bournemouth,18,Forward,40000000,0.0
+Callum,Wilson,Newcastle,13,Forward,30000000,0.0
+Bukayo,Saka,Arsenal,16,Midfielder,110000000,0.0
+Bruno,Fernandes,Manchester United,10,Midfielder,75000000,0.0
+Phil,Foden,Manchester City,15,Midfielder,110000000,0.0
+James,Maddison,Tottenham,9,Midfielder,60000000,0.0
+Pascal,Gross,Brighton,6,Midfielder,18000000,0.0
+Virgil,van Dijk,Liverpool,3,Defender,45000000,0.0
+William,Saliba,Arsenal,2,Defender,60000000,0.0
+Reece,James,Chelsea,1,Defender,35000000,0.0
+Kieran,Trippier,Newcastle,4,Defender,30000000,0.0
+Lewis,Dunk,Brighton,2,Defender,15000000,0.0
+Jamie,Hill,Everton,20,Forward,88000000,0.0
+Tom,Thomas,Aston Villa,20,Forward,31000000,0.0
+Jack,Taylor,Brighton,13,Forward,77000000,0.0
+Ryan,Wright,Brighton,0,Goalkeeper,47000000,0.97
+Jamie,Taylor,Chelsea,7,Defender,12000000,0.0
+Liam,Hall,Everton,6,Forward,25000000,0.0
+Liam,Roberts,Manchester United,0,Goalkeeper,24000000,0.86
+Jamie,Taylor,Aston Villa,4,Defender,65000000,0.0
+Ben,Wilson,Chelsea,9,Midfielder,84000000,0.0
+Jack,Evans,Tottenham,0,Goalkeeper,27000000,1.08
+Chris,Thomas,Arsenal,13,Defender,82000000,0.0
+Jack,Wright,Liverpool,19,Defender,62000000,0.0
+Joe,Roberts,Brighton,0,Goalkeeper,27000000,0.92
+Sam,Wright,Arsenal,0,Goalkeeper,48000000,1.17
+Daniel,Evans,Tottenham,3,Defender,97000000,0.0
+Joe,Hill,Arsenal,3,Forward,48000000,0.0
+John,Brown,Manchester United,0,Goalkeeper,53000000,1.1
+Michael,Roberts,Manchester City,9,Midfielder,48000000,0.0
+John,Williams,Arsenal,17,Forward,92000000,0.0
+Ryan,Evans,West Ham,4,Midfielder,94000000,0.0
+Jack,Hall,Manchester City,10,Forward,61000000,0.0
+Sam,Williams,Arsenal,13,Forward,39000000,0.0
+Joe,Hall,Arsenal,20,Defender,114000000,0.0
+Jamie,Hill,Liverpool,2,Forward,78000000,0.0
+Tom,Walker,West Ham,9,Forward,50000000,0.0
+Joe,Brown,Manchester United,20,Midfielder,27000000,0.0
+Jack,Hill,Liverpool,1,Defender,105000000,0.0
+Joe,Walker,West Ham,11,Forward,115000000,0.0
+Ryan,Jones,Arsenal,0,Goalkeeper,49000000,0.95
+Daniel,Thomas,West Ham,9,Defender,44000000,0.0
