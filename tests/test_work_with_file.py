@@ -37,3 +37,41 @@ def test_parse_args_where(monkeypatch, argv, expected_file, expected_where):
     assert args.file == expected_file
     assert args.where == expected_where
 
+
+@pytest.mark.parametrize("argv, expected_file, expected_aggregate", [
+    (['get_args', '--file', 'test_file_cars.csv', '--aggregate', 'EngineSize=max'], 'test_file_cars.csv', 'EngineSize=max'),
+    (['get_args', '--file', 'test_file_cars.csv', '--aggregate', 'PriceUSD=avg'], 'test_file_cars.csv', 'PriceUSD=avg'),
+    (['get_args', '--file', 'test_file_cars.csv', '--aggregate', 'Year=min'], 'test_file_cars.csv', 'Year=min'),
+])
+def test_parse_args_aggregate(monkeypatch, argv, expected_file, expected_aggregate):
+    monkeypatch.setattr(sys, 'argv', argv)
+    args = get_args()
+    assert args.file == expected_file
+    assert args.aggregate == expected_aggregate
+
+@pytest.mark.parametrize("argv, expected_file, expected_where, expected_aggregate", [
+    (
+        ['get_args', '--file', 'test_file_cars.csv', '--where', 'EngineSize>1.5', '--aggregate', 'PriceUSD=avg'],
+        'test_file_cars.csv',
+        'EngineSize>1.5',
+        'PriceUSD=avg'
+    ),
+    (
+        ['get_args', '--file', 'test_file_cars.csv', '--where', 'Year<=2020', '--aggregate', 'Year=min'],
+        'test_file_cars.csv',
+        'Year<=2020',
+        'Year=min'
+    ),
+    (
+        ['get_args', '--file', 'test_file_cars.csv', '--where', 'PriceUSD>=20000', '--aggregate', 'EngineSize=max'],
+        'test_file_cars.csv',
+        'PriceUSD>=20000',
+        'EngineSize=max'
+    ),
+])
+def test_parse_args_all(monkeypatch, argv, expected_file, expected_where, expected_aggregate):
+    monkeypatch.setattr(sys, 'argv', argv)
+    args = get_args()
+    assert args.file == expected_file
+    assert args.where == expected_where
+    assert args.aggregate == expected_aggregate
